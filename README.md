@@ -1,6 +1,9 @@
 ### Password Validator
 
-Passwords MUST
+**Prerequisites**: 
+Have Go installed in order to run `go get`
+
+Passwords **MUST**
 
 1. Have an 8 character minimum
 2. AT LEAST 64 character maximum
@@ -10,6 +13,10 @@ Passwords MUST
 To install into go/bin:
 
 `go get -u github.com/karn09/password_validator`
+
+Alternative, clone this repo, and from the root directory:
+
+`go run password_validator.go weak_password_list.txt`
 
 Example usage:
 ```
